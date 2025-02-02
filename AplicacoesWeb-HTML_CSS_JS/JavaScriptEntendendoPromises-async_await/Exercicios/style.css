@@ -1,0 +1,31 @@
+@import url('./assets/css/vaiaveis.css');
+@import url('./assets/css/aside.css');
+@import url('./assets/css/containerPrincipal.css');
+@import url('./assets/css/formulario.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-principal);
+    font-family: var(--font-prompt);
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 1.7rem;
+
+    height: 100vh;
+
+    main {
+        background-color: var(--bg-sections);
+        margin: 3.5rem 0;
+        padding: 2rem;
+        border-radius: .5rem;
+        max-width: 62rem;
+
+        display: flex;
+        gap: 2.5rem;
+    }
+}

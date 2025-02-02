@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===== NORMALIZE ===== -->
+    <link href="
+        https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" 
+    rel="stylesheet">
+    <!-- ===== RESET ===== -->
+    <link href="
+        https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" 
+    rel="stylesheet">
+    <!-- ===== CSS ===== -->
+     <link rel="stylesheet" href="style.css">
+     <!-- ===== Js ===== -->
+      <script src="./main.js" defer></script>
+    <title>Mundo Pet</title>
+</head>
+<body>
+    <aside>
+        <img src="./assets/img/Frame 2106.png" alt="Logo da mundo pet">
+        <nav>
+            <ul class="list-links">
+                <li>
+                    <a href="#" class="link-destaque">Publicar</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/feed.svg">
+                        Feed
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/cat.svg">
+                        Perfil
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/info-02.svg">
+                        Sobre nós
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/logout.svg">
+                        Sair
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <div class="container-upload-imagem">
+            <div class="container-imagem">
+                <img src="./assets/img/gato.svg" alt="foto de um gatinho simpático" class="mainImage">
+            </div>
+            <button class="button__upload-image" id="button__upload-image">Carregar Imagem</button>
+            <input type="file" id="image-upload" accept="image/" style="display: none;">
+            <div class="container-image__nome">
+                <p>imagem_do_gato.svg</p>
+                <img src="./assets/img/close.svg">
+            </div>
+        </div>
+        <div class="formulario">
+            <h2>Nova foto</h2>
+            <form>
+                <label for="">
+                    Título da foto
+                    <input type="text">
+                </label>
+                <label for="">
+                    Descrição
+                    <textarea name="" id=""></textarea>
+                </label>
+                <label for="">
+                    Hashtags
+                    <input type="text" name="" id="">
+                    <ul class="lista-tags">
+                        <li class="tag">Gato Laranja</li>
+                        <li class="tag">Gato adulto</li>
+                    </ul>
+                </label>
+                <div class="btns-formulario">
+                    <button class="btn-descartar">Descartar</button>
+                    <button class="btn-publicar">Publicar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -13,6 +13,8 @@ Formações e cursos das linguagens de programação mais usadas no mercado e de
 
 ## 📚 Formações
 
+- ### [JavaScript: programando na linguagem da web](./JavaScriptProgramandoNaLinguagemWeb/menu.md)
+
 - ### [Desenvolvimento Front-end: cursos para criar aplicações web com HTML, CSS e JavaScript](./AplicacoesWeb-HTML_CSS_JS/menu.md)
 
 ## 🗂️ Projetos
